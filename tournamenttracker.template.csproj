@@ -4,4 +4,43 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Include="Presentation\wwwroot\css\site.css" />
+    <Content Include="Presentation\wwwroot\favicon.ico" />
+    <Content Include="Presentation\wwwroot\js\site.js" />
+    <Content Include="Presentation\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css" />
+    <Content Include="Presentation\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <Content Include="Presentation\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css" />
+    <Content Include="Presentation\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <Content Include="Presentation\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css" />
+    <Content Include="Presentation\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <Content Include="Presentation\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css" />
+    <Content Include="Presentation\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <Content Include="Presentation\wwwroot\lib\bootstrap\dist\css\bootstrap.css" />
+    <Content Include="Presentation\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <Content Include="Presentation\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <Content Include="Presentation\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <Content Include="Presentation\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+    <Content Include="Presentation\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <Content Include="Presentation\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <Content Include="Presentation\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <Content Include="Presentation\wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <Content Include="Presentation\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" />
+    <Content Include="Presentation\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <Content Include="Presentation\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+    <Content Include="Presentation\wwwroot\lib\bootstrap\LICENSE" />
+    <Content Include="Presentation\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <Content Include="Presentation\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Presentation\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt" />
+    <Content Include="Presentation\wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <Content Include="Presentation\wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <Content Include="Presentation\wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <Content Include="Presentation\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <Content Include="Presentation\wwwroot\lib\jquery-validation\LICENSE.md" />
+    <Content Include="Presentation\wwwroot\lib\jquery\dist\jquery.js" />
+    <Content Include="Presentation\wwwroot\lib\jquery\dist\jquery.min.js" />
+    <Content Include="Presentation\wwwroot\lib\jquery\dist\jquery.min.map" />
+    <Content Include="Presentation\wwwroot\lib\jquery\LICENSE.txt" />
+  </ItemGroup>
+
 </Project>

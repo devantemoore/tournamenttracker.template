@@ -1,0 +1,43 @@
+﻿Title: Tournament Tracker Details
+Author: DeVante Moore
+Date: 6/17/2021
+
+- Summary
+____________
+	
+		The Tournament Tracker is a tracking system in which users can interact with by 
+	creating tournaments that consist of teams, players, and matches.
+
+
+	- User Story
+	_____________
+		
+			A player without an account can create an account and request to join a team.
+			A player with an account that is not assigned to a team can create a team 
+				(team is created and player is elevated to team lead; admin passphrase required)
+			A player with an account can view basic team info (team members, schedule, tournament tree)
+			A player with an account can view other teams' basic info
+
+			A team lead can join tournament (before it begins) and can leave (forfiet if in progress)
+			A team lead approves join requests.
+
+			A league admin can create/configure tournaments' rules and publish
+
+
+- Design
+____________
+
+	- Domain 
+	_______________
+		Context:  
+		Entity: USER
+		Model: TEAM, MATCH, TOURNAMENT, LEAGUE
+
+	- Application
+	_______________
+
+		User: LOG IN, LOG OUT, JOIN TEAM (PASSPHRASE), VIEW TEAM, VIEW OTHER TEAMS
+			Non-User: REGISTER
+			Team Lead: CREATE TEAM (PASSPHRASE)
+			Admin: CREATE TOURNAMENT, CONFIGURE TOURNAMENT, PUBLISH TOURNAMENT
+			
