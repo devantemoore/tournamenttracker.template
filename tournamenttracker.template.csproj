@@ -43,4 +43,9 @@
     <Content Include="Presentation\wwwroot\lib\jquery\LICENSE.txt" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Infrastructure\Services\" />
+    <Folder Include="Infrastructure\Persistance\" />
+  </ItemGroup>
+
 </Project>
