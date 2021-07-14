@@ -37,16 +37,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "dependencies": {
-            "FluentAssertions": {
-              "target": "Package",
-              "version": "[5.10.3, )"
-            },
-            "xunit": {
-              "target": "Package",
-              "version": "[2.4.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

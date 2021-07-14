@@ -7,7 +7,6 @@ C:\Users\dmoore\source\repos\tournamenttracker.template\tournamenttracker.templa
 C:\Users\dmoore\source\repos\tournamenttracker.template\tournamenttracker.template\bin\Debug\netcoreapp3.1\tournamenttracker.template.pdb
 C:\Users\dmoore\source\repos\tournamenttracker.template\tournamenttracker.template\bin\Debug\netcoreapp3.1\tournamenttracker.template.Views.dll
 C:\Users\dmoore\source\repos\tournamenttracker.template\tournamenttracker.template\bin\Debug\netcoreapp3.1\tournamenttracker.template.Views.pdb
-C:\Users\dmoore\source\repos\tournamenttracker.template\tournamenttracker.template\obj\Debug\netcoreapp3.1\tournamenttracker.template.csprojAssemblyReference.cache
 C:\Users\dmoore\source\repos\tournamenttracker.template\tournamenttracker.template\obj\Debug\netcoreapp3.1\tournamenttracker.template.AssemblyInfoInputs.cache
 C:\Users\dmoore\source\repos\tournamenttracker.template\tournamenttracker.template\obj\Debug\netcoreapp3.1\tournamenttracker.template.AssemblyInfo.cs
 C:\Users\dmoore\source\repos\tournamenttracker.template\tournamenttracker.template\obj\Debug\netcoreapp3.1\tournamenttracker.template.RazorAssemblyInfo.cache
@@ -34,7 +33,6 @@ C:\Users\dmoore\source\repos\tournamenttracker.template\tournamenttracker.templa
 C:\Users\dmoore\source\repos\tournamenttracker.template\tournamenttracker.template\obj\Debug\netcoreapp3.1\Razor\Presentation\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\dmoore\source\repos\tournamenttracker.template\tournamenttracker.template\obj\Debug\netcoreapp3.1\Razor\Presentation\Views\_ViewImports.cshtml.g.cs
 C:\Users\dmoore\source\repos\tournamenttracker.template\tournamenttracker.template\obj\Debug\netcoreapp3.1\Razor\Presentation\Views\_ViewStart.cshtml.g.cs
-C:\Users\dmoore\source\repos\tournamenttracker.template\tournamenttracker.template\bin\Debug\netcoreapp3.1\xunit.abstractions.dll
-C:\Users\dmoore\source\repos\tournamenttracker.template\tournamenttracker.template\bin\Debug\netcoreapp3.1\xunit.assert.dll
-C:\Users\dmoore\source\repos\tournamenttracker.template\tournamenttracker.template\bin\Debug\netcoreapp3.1\xunit.core.dll
-C:\Users\dmoore\source\repos\tournamenttracker.template\tournamenttracker.template\bin\Debug\netcoreapp3.1\xunit.execution.dotnet.dll
+C:\Users\dmoore\source\repos\tournamenttracker.template\tournamenttracker.template\obj\Debug\netcoreapp3.1\tournamenttracker.template.csproj.CoreCompileInputs.cache
+C:\Users\dmoore\source\repos\tournamenttracker.template\tournamenttracker.template\obj\Debug\netcoreapp3.1\tournamenttracker.template.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\dmoore\source\repos\tournamenttracker.template\tournamenttracker.template\obj\Debug\netcoreapp3.1\tournamenttracker.template.csprojAssemblyReference.cache
