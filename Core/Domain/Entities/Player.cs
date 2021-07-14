@@ -4,7 +4,7 @@ namespace tournamenttracker.template.Domain.Entities
 {
     public class Player : User
     {
-        public Guid PlayerId { get; private set; }
+        public Guid PlayerId { get; set; }
         public TeamRole teamRole { get; private set; }
 
         public Player()

@@ -8,7 +8,7 @@ namespace tournamenttracker.template.Core.Application.Interface
 {
     public interface IPlayerRepo
     {
-        public User Create(Player player);
-        public User GetPlayer(long id);
+        public Player Create(Player player);
+        public Player GetPlayer(Guid id);
     }
 }

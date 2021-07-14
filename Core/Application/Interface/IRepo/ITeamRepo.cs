@@ -8,6 +8,7 @@ namespace tournamenttracker.template.Core.Application.Interface
 {
     public interface ITeamRepo
     {
+        public ICollection<Team> GetAll();
         public Team GetTeam(long id);
         public Team Create(Team team);
     }

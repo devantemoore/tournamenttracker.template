@@ -5,11 +5,16 @@ using System.Threading.Tasks;
 
 namespace tournamenttracker.template.Core.Application.Model
 {
-    public class AppRequest<T> where T : class
+    public class AppRequest<T1, T2> where T1 : class where T2 : class
     {
-        public Guid RequestId { get; private set; }
-        public T Requester { get; set; }
-        public RequestStatus RequestStatus { get; set; }
+        public T1 Requester { get; set; }
+        public T2 Receiver { get; set; }
+        public RequestStatus RequestStatus { get; private set; }
+
+        public AppRequest()
+        {
+            RequestStatus = RequestStatus.InReview;
+        }
     }
 
     public enum RequestStatus

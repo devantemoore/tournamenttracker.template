@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace tournamenttracker.template.Domain.Entities
 {
-    public class User : IdentityUser
+    public class User
     {
         public string Username { get; set; }
         public string FirstName { get; set; }
