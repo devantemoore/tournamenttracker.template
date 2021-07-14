@@ -47,9 +47,4 @@
     <Folder Include="Infrastructure\Services\" />
   </ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="FluentAssertions" Version="5.10.3" />
-    <PackageReference Include="xunit" Version="2.4.1" />
-  </ItemGroup>
-
 </Project>
