@@ -10,6 +10,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tournamenttracker.template.
 		{C50441AC-8C38-4C35-B0CB-90B9349DEB4F} = {C50441AC-8C38-4C35-B0CB-90B9349DEB4F}
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4B4C06CD-8F8C-4314-AB3A-83822FB20CBE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{434CD454-6D11-4A08-BE5B-75F697DFBC93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C50441AC-8C38-4C35-B0CB-90B9349DEB4F} = {4B4C06CD-8F8C-4314-AB3A-83822FB20CBE}
+		{CD4196A1-E9B2-423F-93EE-A8E2F655B22A} = {434CD454-6D11-4A08-BE5B-75F697DFBC93}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {376787BF-0A2B-4F26-9B1C-AE5D01799064}
