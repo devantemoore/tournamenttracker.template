@@ -10,5 +10,6 @@ namespace tournamenttracker.template.Core.Application.Interface.IServices
     public interface ITourneyService
     {
         public void ApproveRequest(AppRequest<Team, Tournament> request);
+        public void PublishTournament();
     }
 }
