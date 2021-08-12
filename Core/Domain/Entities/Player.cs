@@ -21,7 +21,7 @@ namespace tournamenttracker.template.Domain.Entities
 
     public enum TeamRole
     {
-        player = 1,
-        lead = 2,
+        player,
+        lead,
     }
 }

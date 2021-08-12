@@ -15,12 +15,14 @@ namespace tournamenttracker.template.Core.Application.Model
         {
             RequestStatus = RequestStatus.InReview;
         }
+
+        public void SetRequestStatus(RequestStatus requestStatus) => RequestStatus = requestStatus;
     }
 
     public enum RequestStatus
     {
-        Approved = 1,
-        Denied = 2,
-        InReview = 3
+        Approved,
+        Denied,
+        InReview
     }
 }
