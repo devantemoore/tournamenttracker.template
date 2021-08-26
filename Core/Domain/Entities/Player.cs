@@ -2,10 +2,12 @@
 
 namespace tournamenttracker.template.Domain.Entities
 {
-    public class Player : User
+    public class Player 
     {
         public Guid PlayerId { get; set; }
         public TeamRole teamRole { get; private set; }
+        public string Name { get; set; }
+        public string Number { get; set; }
 
         public Player()
         {

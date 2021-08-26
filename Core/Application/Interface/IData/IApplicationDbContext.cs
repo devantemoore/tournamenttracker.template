@@ -13,5 +13,6 @@ namespace tournamenttracker.template.Core.Application.Interface.IData
         public DbSet<Team> Teams { get; set; }
         public DbSet<Tournament> Tournaments { get; set;}
         public DbSet<Match> Matches { get; set; }
+        public void SaveChangesAsync();
     }
 }

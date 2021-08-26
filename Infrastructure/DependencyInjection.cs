@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using tournamenttracker.template.Core.Application.Interface.IData;
 using tournamenttracker.template.Infrastructure.Persistance;
 
 namespace tournamenttracker.template.Infrastructure
@@ -14,20 +15,12 @@ namespace tournamenttracker.template.Infrastructure
         public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
         {
             // add infrastructure services
-
-
-            if (configuration.GetValue<bool>("UseInMemoryDatabase")) {
-                
-                services.AddDbContext<ApplicationDbContext>(options =>
-                    options.UseInMemoryDatabase("TournamentTrackerDb"));
-            } 
-            else
-            {
-                services.AddDbContext<ApplicationDbContext>(options =>
-                    options.UseSqlServer(
-                        configuration.GetConnectionString("DefaultConnection"),
-                        b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)));
-            }
+            
+            services.AddDbContext<IApplicationDbContext, ApplicationDbContext>(options =>
+                options.UseSqlServer(
+                    configuration.GetConnectionString("DefaultConnection"),
+                    b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)));
+            
 
             return services;
         }

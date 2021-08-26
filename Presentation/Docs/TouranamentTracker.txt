@@ -41,3 +41,19 @@ ____________
 			Team Lead: CREATE TEAM (PASSPHRASE)
 			Admin: CREATE TOURNAMENT, CONFIGURE TOURNAMENT, PUBLISH TOURNAMENT
 			
+
+
+
+USER STORY:
+	I. User Creates Account
+
+		A. Generate League (limit?) - League Director
+			1. permissions as league director?
+			2. Request to Join League
+			3. create tournament?
+
+		B. Request to Join League
+			1. Create tournament - Tournament Coordinator
+			2. Create team - Team Lead
+				a. join tournament
+			3. Join a team - Team Player

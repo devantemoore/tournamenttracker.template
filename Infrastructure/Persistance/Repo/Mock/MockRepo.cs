@@ -10,7 +10,6 @@ namespace tournamenttracker.template.Infrastructure.Persistance.Mock
         {
             new Player
             {
-                PlayerId = Guid.Parse("687094d3-87ec-4b93-8e95-0f4463e63e4c"),
                 Username = "DullerLobster",
                 FirstName = "Tim",
                 LastName = "Duncan",
